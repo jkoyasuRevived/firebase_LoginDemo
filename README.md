@@ -1,0 +1,2 @@
+# firebase_LoginDemo
+firebaseを利用した会員登録、ログインのiOSアプリ。利用に際しfirebaseからplistを追加する必要あり。
