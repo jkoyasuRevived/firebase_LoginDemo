@@ -10,10 +10,7 @@
 		683B1B4AA44ACEBF645E383A /* Pods_firebase_LoginDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6E0913108F267DDF9B2DDD /* Pods_firebase_LoginDemo.framework */; };
 		A26F176E29F527BA0033D0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F176D29F527BA0033D0C6 /* AppDelegate.swift */; };
 		A26F177029F527BA0033D0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F176F29F527BA0033D0C6 /* SceneDelegate.swift */; };
-		A26F177229F527BA0033D0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F177129F527BA0033D0C6 /* ViewController.swift */; };
-		A26F177529F527BA0033D0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F177329F527BA0033D0C6 /* Main.storyboard */; };
 		A26F177729F527BD0033D0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26F177629F527BD0033D0C6 /* Assets.xcassets */; };
-		A26F177A29F527BD0033D0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F177829F527BD0033D0C6 /* LaunchScreen.storyboard */; };
 		A26F178729F52AF10033D0C6 /* ModPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178329F52AF10033D0C6 /* ModPasswordModel.swift */; };
 		A26F178829F52AF10033D0C6 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178429F52AF10033D0C6 /* SignUpModel.swift */; };
 		A26F178929F52AF10033D0C6 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178529F52AF10033D0C6 /* SignInModel.swift */; };
@@ -39,10 +36,7 @@
 		A26F176A29F527BA0033D0C6 /* firebase_LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebase_LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26F176D29F527BA0033D0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A26F176F29F527BA0033D0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A26F177129F527BA0033D0C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A26F177429F527BA0033D0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A26F177629F527BD0033D0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		A26F177929F527BD0033D0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A26F177B29F527BD0033D0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A26F178329F52AF10033D0C6 /* ModPasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModPasswordModel.swift; sourceTree = "<group>"; };
 		A26F178429F52AF10033D0C6 /* SignUpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
@@ -116,10 +110,7 @@
 				A26F178129F52A6F0033D0C6 /* ViewController */,
 				A26F176D29F527BA0033D0C6 /* AppDelegate.swift */,
 				A26F176F29F527BA0033D0C6 /* SceneDelegate.swift */,
-				A26F177129F527BA0033D0C6 /* ViewController.swift */,
-				A26F177329F527BA0033D0C6 /* Main.storyboard */,
 				A26F177629F527BD0033D0C6 /* Assets.xcassets */,
-				A26F177829F527BD0033D0C6 /* LaunchScreen.storyboard */,
 				A26F17A129F52FC70033D0C6 /* GoogleService-Info.plist */,
 				A26F177B29F527BD0033D0C6 /* Info.plist */,
 			);
@@ -215,11 +206,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26F177A29F527BD0033D0C6 /* LaunchScreen.storyboard in Resources */,
 				A26F179C29F52BB00033D0C6 /* ModPasswordViewController.storyboard in Resources */,
 				A26F17A229F52FC80033D0C6 /* GoogleService-Info.plist in Resources */,
 				A26F177729F527BD0033D0C6 /* Assets.xcassets in Resources */,
-				A26F177529F527BA0033D0C6 /* Main.storyboard in Resources */,
 				A26F17A029F52BB00033D0C6 /* MemberIDViewController.storyboard in Resources */,
 				A26F179F29F52BB00033D0C6 /* SignInViewController.storyboard in Resources */,
 				A26F179D29F52BB00033D0C6 /* SplashViewController.storyboard in Resources */,
@@ -276,7 +265,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A26F177229F527BA0033D0C6 /* ViewController.swift in Sources */,
 				A26F179329F52B1F0033D0C6 /* MemberIDViewController.swift in Sources */,
 				A26F178729F52AF10033D0C6 /* ModPasswordModel.swift in Sources */,
 				A26F179529F52B1F0033D0C6 /* SplashViewController.swift in Sources */,
@@ -293,25 +281,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		A26F177329F527BA0033D0C6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A26F177429F527BA0033D0C6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		A26F177829F527BD0033D0C6 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A26F177929F527BD0033D0C6 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		A26F177C29F527BD0033D0C6 /* Debug */ = {
