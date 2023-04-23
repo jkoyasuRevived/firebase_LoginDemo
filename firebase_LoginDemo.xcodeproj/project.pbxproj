@@ -7,15 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		683B1B4AA44ACEBF645E383A /* Pods_firebase_LoginDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E6E0913108F267DDF9B2DDD /* Pods_firebase_LoginDemo.framework */; };
 		A26F176E29F527BA0033D0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F176D29F527BA0033D0C6 /* AppDelegate.swift */; };
 		A26F177029F527BA0033D0C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F176F29F527BA0033D0C6 /* SceneDelegate.swift */; };
 		A26F177229F527BA0033D0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F177129F527BA0033D0C6 /* ViewController.swift */; };
 		A26F177529F527BA0033D0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F177329F527BA0033D0C6 /* Main.storyboard */; };
 		A26F177729F527BD0033D0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26F177629F527BD0033D0C6 /* Assets.xcassets */; };
 		A26F177A29F527BD0033D0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F177829F527BD0033D0C6 /* LaunchScreen.storyboard */; };
+		A26F178729F52AF10033D0C6 /* ModPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178329F52AF10033D0C6 /* ModPasswordModel.swift */; };
+		A26F178829F52AF10033D0C6 /* SignUpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178429F52AF10033D0C6 /* SignUpModel.swift */; };
+		A26F178929F52AF10033D0C6 /* SignInModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178529F52AF10033D0C6 /* SignInModel.swift */; };
+		A26F178A29F52AF10033D0C6 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178629F52AF10033D0C6 /* ApplicationData.swift */; };
+		A26F179129F52B1F0033D0C6 /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178B29F52B1E0033D0C6 /* TermsViewController.swift */; };
+		A26F179229F52B1F0033D0C6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178C29F52B1E0033D0C6 /* SignInViewController.swift */; };
+		A26F179329F52B1F0033D0C6 /* MemberIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178D29F52B1E0033D0C6 /* MemberIDViewController.swift */; };
+		A26F179429F52B1F0033D0C6 /* ModPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178E29F52B1F0033D0C6 /* ModPasswordViewController.swift */; };
+		A26F179529F52B1F0033D0C6 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F178F29F52B1F0033D0C6 /* SplashViewController.swift */; };
+		A26F179629F52B1F0033D0C6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26F179029F52B1F0033D0C6 /* SignUpViewController.swift */; };
+		A26F179C29F52BB00033D0C6 /* ModPasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F179729F52BAF0033D0C6 /* ModPasswordViewController.storyboard */; };
+		A26F179D29F52BB00033D0C6 /* SplashViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F179829F52BAF0033D0C6 /* SplashViewController.storyboard */; };
+		A26F179E29F52BB00033D0C6 /* TermsViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F179929F52BAF0033D0C6 /* TermsViewController.storyboard */; };
+		A26F179F29F52BB00033D0C6 /* SignInViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F179A29F52BAF0033D0C6 /* SignInViewController.storyboard */; };
+		A26F17A029F52BB00033D0C6 /* MemberIDViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26F179B29F52BB00033D0C6 /* MemberIDViewController.storyboard */; };
+		A26F17A229F52FC80033D0C6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A26F17A129F52FC70033D0C6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		365415104D6895EDD156027E /* Pods-firebase_LoginDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_LoginDemo.debug.xcconfig"; path = "Target Support Files/Pods-firebase_LoginDemo/Pods-firebase_LoginDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E6E0913108F267DDF9B2DDD /* Pods_firebase_LoginDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_firebase_LoginDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BE2DC5F63B8B9CFCC03362A /* Pods-firebase_LoginDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-firebase_LoginDemo.release.xcconfig"; path = "Target Support Files/Pods-firebase_LoginDemo/Pods-firebase_LoginDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A26F176A29F527BA0033D0C6 /* firebase_LoginDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebase_LoginDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A26F176D29F527BA0033D0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A26F176F29F527BA0033D0C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +44,22 @@
 		A26F177629F527BD0033D0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A26F177929F527BD0033D0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A26F177B29F527BD0033D0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26F178329F52AF10033D0C6 /* ModPasswordModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModPasswordModel.swift; sourceTree = "<group>"; };
+		A26F178429F52AF10033D0C6 /* SignUpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpModel.swift; sourceTree = "<group>"; };
+		A26F178529F52AF10033D0C6 /* SignInModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInModel.swift; sourceTree = "<group>"; };
+		A26F178629F52AF10033D0C6 /* ApplicationData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		A26F178B29F52B1E0033D0C6 /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
+		A26F178C29F52B1E0033D0C6 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		A26F178D29F52B1E0033D0C6 /* MemberIDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemberIDViewController.swift; sourceTree = "<group>"; };
+		A26F178E29F52B1F0033D0C6 /* ModPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModPasswordViewController.swift; sourceTree = "<group>"; };
+		A26F178F29F52B1F0033D0C6 /* SplashViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		A26F179029F52B1F0033D0C6 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		A26F179729F52BAF0033D0C6 /* ModPasswordViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ModPasswordViewController.storyboard; sourceTree = "<group>"; };
+		A26F179829F52BAF0033D0C6 /* SplashViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SplashViewController.storyboard; sourceTree = "<group>"; };
+		A26F179929F52BAF0033D0C6 /* TermsViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TermsViewController.storyboard; sourceTree = "<group>"; };
+		A26F179A29F52BAF0033D0C6 /* SignInViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = SignInViewController.storyboard; sourceTree = "<group>"; };
+		A26F179B29F52BB00033D0C6 /* MemberIDViewController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MemberIDViewController.storyboard; sourceTree = "<group>"; };
+		A26F17A129F52FC70033D0C6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				683B1B4AA44ACEBF645E383A /* Pods_firebase_LoginDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E24CA6F4E5B3DB3B2A9C26B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				365415104D6895EDD156027E /* Pods-firebase_LoginDemo.debug.xcconfig */,
+				7BE2DC5F63B8B9CFCC03362A /* Pods-firebase_LoginDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6F0A13678835786B9FA9226D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E6E0913108F267DDF9B2DDD /* Pods_firebase_LoginDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A26F176129F527BA0033D0C6 = {
 			isa = PBXGroup;
 			children = (
 				A26F176C29F527BA0033D0C6 /* firebase_LoginDemo */,
 				A26F176B29F527BA0033D0C6 /* Products */,
+				6E24CA6F4E5B3DB3B2A9C26B /* Pods */,
+				6F0A13678835786B9FA9226D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +112,47 @@
 		A26F176C29F527BA0033D0C6 /* firebase_LoginDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A26F178229F52A740033D0C6 /* Model */,
+				A26F178129F52A6F0033D0C6 /* ViewController */,
 				A26F176D29F527BA0033D0C6 /* AppDelegate.swift */,
 				A26F176F29F527BA0033D0C6 /* SceneDelegate.swift */,
 				A26F177129F527BA0033D0C6 /* ViewController.swift */,
 				A26F177329F527BA0033D0C6 /* Main.storyboard */,
 				A26F177629F527BD0033D0C6 /* Assets.xcassets */,
 				A26F177829F527BD0033D0C6 /* LaunchScreen.storyboard */,
+				A26F17A129F52FC70033D0C6 /* GoogleService-Info.plist */,
 				A26F177B29F527BD0033D0C6 /* Info.plist */,
 			);
 			path = firebase_LoginDemo;
+			sourceTree = "<group>";
+		};
+		A26F178129F52A6F0033D0C6 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				A26F179B29F52BB00033D0C6 /* MemberIDViewController.storyboard */,
+				A26F179729F52BAF0033D0C6 /* ModPasswordViewController.storyboard */,
+				A26F179A29F52BAF0033D0C6 /* SignInViewController.storyboard */,
+				A26F179829F52BAF0033D0C6 /* SplashViewController.storyboard */,
+				A26F179929F52BAF0033D0C6 /* TermsViewController.storyboard */,
+				A26F178D29F52B1E0033D0C6 /* MemberIDViewController.swift */,
+				A26F178E29F52B1F0033D0C6 /* ModPasswordViewController.swift */,
+				A26F178C29F52B1E0033D0C6 /* SignInViewController.swift */,
+				A26F179029F52B1F0033D0C6 /* SignUpViewController.swift */,
+				A26F178F29F52B1F0033D0C6 /* SplashViewController.swift */,
+				A26F178B29F52B1E0033D0C6 /* TermsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		A26F178229F52A740033D0C6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A26F178629F52AF10033D0C6 /* ApplicationData.swift */,
+				A26F178329F52AF10033D0C6 /* ModPasswordModel.swift */,
+				A26F178529F52AF10033D0C6 /* SignInModel.swift */,
+				A26F178429F52AF10033D0C6 /* SignUpModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A26F177E29F527BD0033D0C6 /* Build configuration list for PBXNativeTarget "firebase_LoginDemo" */;
 			buildPhases = (
+				CBC4B19873A9603CD92539F8 /* [CP] Check Pods Manifest.lock */,
 				A26F176629F527BA0033D0C6 /* Sources */,
 				A26F176729F527BA0033D0C6 /* Frameworks */,
 				A26F176829F527BA0033D0C6 /* Resources */,
+				1A14658B0D0641A8A4783EC4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,12 +216,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26F177A29F527BD0033D0C6 /* LaunchScreen.storyboard in Resources */,
+				A26F179C29F52BB00033D0C6 /* ModPasswordViewController.storyboard in Resources */,
+				A26F17A229F52FC80033D0C6 /* GoogleService-Info.plist in Resources */,
 				A26F177729F527BD0033D0C6 /* Assets.xcassets in Resources */,
 				A26F177529F527BA0033D0C6 /* Main.storyboard in Resources */,
+				A26F17A029F52BB00033D0C6 /* MemberIDViewController.storyboard in Resources */,
+				A26F179F29F52BB00033D0C6 /* SignInViewController.storyboard in Resources */,
+				A26F179D29F52BB00033D0C6 /* SplashViewController.storyboard in Resources */,
+				A26F179E29F52BB00033D0C6 /* TermsViewController.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A14658B0D0641A8A4783EC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_LoginDemo/Pods-firebase_LoginDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-firebase_LoginDemo/Pods-firebase_LoginDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-firebase_LoginDemo/Pods-firebase_LoginDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBC4B19873A9603CD92539F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-firebase_LoginDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A26F176629F527BA0033D0C6 /* Sources */ = {
@@ -139,8 +277,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				A26F177229F527BA0033D0C6 /* ViewController.swift in Sources */,
+				A26F179329F52B1F0033D0C6 /* MemberIDViewController.swift in Sources */,
+				A26F178729F52AF10033D0C6 /* ModPasswordModel.swift in Sources */,
+				A26F179529F52B1F0033D0C6 /* SplashViewController.swift in Sources */,
+				A26F178829F52AF10033D0C6 /* SignUpModel.swift in Sources */,
+				A26F178A29F52AF10033D0C6 /* ApplicationData.swift in Sources */,
+				A26F179429F52B1F0033D0C6 /* ModPasswordViewController.swift in Sources */,
 				A26F176E29F527BA0033D0C6 /* AppDelegate.swift in Sources */,
+				A26F179229F52B1F0033D0C6 /* SignInViewController.swift in Sources */,
 				A26F177029F527BA0033D0C6 /* SceneDelegate.swift in Sources */,
+				A26F179129F52B1F0033D0C6 /* TermsViewController.swift in Sources */,
+				A26F179629F52B1F0033D0C6 /* SignUpViewController.swift in Sources */,
+				A26F178929F52AF10033D0C6 /* SignInModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +430,7 @@
 		};
 		A26F177F29F527BD0033D0C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 365415104D6895EDD156027E /* Pods-firebase_LoginDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +441,7 @@
 				INFOPLIST_FILE = firebase_LoginDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +459,7 @@
 		};
 		A26F178029F527BD0033D0C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BE2DC5F63B8B9CFCC03362A /* Pods-firebase_LoginDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +470,7 @@
 				INFOPLIST_FILE = firebase_LoginDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = SplashViewController;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
